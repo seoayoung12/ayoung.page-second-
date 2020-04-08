@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    height: 90vh;
+    background: url("loey1.jpg") no-repeat center;
+    background-size: cover;
+}
+body::before {
+    content: "";
+    position: absolute; z-index: 1;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: rgba(0,0,0,.3);
+
+}
+.list {
+  font-size: 30px;
+  color: #ffdc3c;
+  position: absolute;
+  left:30vh; top:35vh;
+  z-index: 2;
+}
+.list a {
+  color: #ffdc3c;
+  text-decoration: none;
+}
+.input-group {
+  z-index: 2;
+  margin-top: 60px;
+}
+.search-bar {
+  width: 500px;
+}
+#button-addon2 {
+  color: #ffdc3c;
+  border-color: #ffdc3c;
+}
