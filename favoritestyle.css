@@ -44,6 +44,6 @@ body::before {
 }
 .card-group {
   position: absolute;
-  left: 75vh; bottom: 14vh; right: 50vh;
+  left: 50vh; bottom: 12vh; right: 50vh;
   z-index: 2;
 }
