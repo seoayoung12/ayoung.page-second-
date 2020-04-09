@@ -9,8 +9,8 @@ body {
 body::before {
     content: "";
     position: absolute; z-index: 1;
-    top: 0; right: 170vh; bottom: 0; left: 0;
-    background-color: rgba(0,0,0,.3);
+    top: 0; right: 0vh; bottom: 0; left: 0;
+    background-color: rgba(0,0,0,.2);
 
 }
 .list-group {
