@@ -11,11 +11,9 @@ body::before {
     position: absolute; z-index: 1;
     top: 0; right: 0; bottom: 0; left: 0;
     background-color: rgba(0,0,0,.3);
-
 }
 .list {
   font-size: 30px;
-  color: #ffdc3c;
   position: absolute;
   left:30vh; top:35vh;
   z-index: 2;

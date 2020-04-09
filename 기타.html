@@ -1,0 +1,39 @@
+<script>
+  let id = $('#id');
+  let pw = $('#pw');
+  let btn = $('#btn');
+
+  $(btn).on('click', function() {
+    if($(id).val() == "") {
+      $(id).next('label').addClass('warning');
+      setTimeout(function() {
+        $('label').removeClass('warning');
+      },1500);
+    }
+    else if($(pw).val() == "") {
+      $(pw).next('label').addClass('warning');
+      setTimeout(function() {
+        $('label').removeClass('warning');
+      },1500);
+    }
+  });
+</script>
+
+
+
+
+.int-area label.warning {
+    color: red !important;
+    animation: warning .3s ease;
+    animation-iteration-count: 3;
+}
+@keyframes warning {
+  0% {transform: translateX(-8px);}
+  25% {transform: translateX(8px);}
+  50% {transform: translateX(-8px);}
+  75% {transform: translateX(8px);}
+}
+
+
+
+<script src"jquery-3.4.1.js"></script>
