@@ -30,7 +30,7 @@ body::before {
 #title {
   font-size: 50px;
   position: absolute;
-  left:3vh; top:5vh;
+  left:7vh; top:5vh;
   z-index: 2;
   text-decoration: none;
 }
